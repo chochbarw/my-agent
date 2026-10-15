@@ -2,9 +2,8 @@ import streamlit as st
 from dotenv import load_dotenv
 from langchain.chat_models import init_chat_model
 from langchain.tools import tool
-from langchain.agents import create_agent
+from langchain.agents import create_agen
 from langchain_tavily import TavilySearch
-
 
 load_dotenv()
 
